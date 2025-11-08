@@ -1,0 +1,9 @@
+INSERT INTO bumps (title, tone, personas, format, styles, status)
+VALUES (
+  'Test Bump',
+  'Dark humour baseline',
+  ARRAY['New Age','Spiritual Influencer'],
+  '{"format":"3x9"}'::jsonb,
+  ARRAY['ST1','ST3'],
+  'draft'
+);

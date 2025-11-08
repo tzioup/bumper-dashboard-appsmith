@@ -1,0 +1,1 @@
+SELECT * FROM taglines WHERE bump_id = {{Table1.selectedRow.data.id}} ORDER BY created_at DESC;
